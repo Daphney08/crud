@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Events</title>
+    <title>Create Event</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
@@ -15,7 +15,7 @@
     <div class="container">
         <div class="row p-5">
             <div class="col-10">
-                <h1>Create Events</h1>
+                <h1>Create Event</h1>
             </div>
             <div class="col-2">
                 <a href="/" class="btn btn-danger">Cancel</a>
@@ -40,7 +40,7 @@
                         <input type="text" class="form-control" name="description" required>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Entrance_fee</label>
+                        <label class="form-label">Entrance Fee</label>
                         <input type="integer" class="form-control" name="entrance_fee" required>
                     </div>
                     

@@ -40,7 +40,7 @@
                         <input type="text" class="form-control" name="description" value="{{ $data->description }}" required>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Entrance_fee</label>
+                        <label class="form-label">Entrance Fee</label>
                         <input type="integer" class="form-control" name="entrance_fee" value="{{ $data->entrance_fee }}" required>
                     </div>
                     <div class="mb-3">
