@@ -45,7 +45,7 @@ class IndexController extends Controller
 
         if($this->request->has('price1')){
             $data = Events::where('entrance_fee','>=', $this->request->price1)
-                            ->where('entrance_fee','>=', $this->request->price2)
+                            ->where('entrance_fee','<=', $this->request->price2)
                             ->get();
 
         }
